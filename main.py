@@ -14,3 +14,10 @@ time.sleep(70)
 username="09913663202"
 password="09913663202"
 
+#find location inputs and button
+username_location = driver.find_element(By.XPATH, "/html/body/div/div[1]/div[2]/div[1]/form/div[1]/input")
+password_location=driver.find_element(By.XPATH,"/html/body/div/div[1]/div[2]/div[1]/form/div[2]/input")
+submitbutton_location=driver.find_element(By.XPATH,"/html/body/div/div[1]/div[2]/div[1]/form/button")
+
+
+
