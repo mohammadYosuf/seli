@@ -23,3 +23,4 @@ submit_button_location=driver.find_element(By.XPATH,"/html/body/div/div[1]/div[2
 username_location.send_keys(username)
 password_location.send_keys(password)
 submit_button_location.click()
+time.sleep(30)
