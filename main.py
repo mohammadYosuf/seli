@@ -10,3 +10,7 @@ driver = webdriver.Chrome()
 driver.get("https://panel.iranicard.ir/login")
 time.sleep(70)
 
+#add data of user
+username="09913663202"
+password="09913663202"
+
